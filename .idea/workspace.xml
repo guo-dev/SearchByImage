@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d06fc72-d58b-4366-a94d-dd7f5d11ab88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/CrazyPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/SearchByImage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/configs/SearchByImage.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/action/KeyWordsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/action/KeyWordsAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/driver/InitDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/driver/MyWebDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/KeywordsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/KeywordsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/testcases/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/utils/ProUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/utils/ProUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="3d06fc72-d58b-4366-a94d-dd7f5d11ab88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,16 +53,16 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\zhuzhuang\SearchByImage\configs" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\zhuzhuang\SearchByImage\src\main\resources" />
+      <recent name="D:\zhuzhuang\SearchByImage\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.search.guo.keyworddriver" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhuzhuang\SearchByImage\configs" />
       <recent name="D:\zhuzhuang\SearchByImage\src\main\resources" />
-      <recent name="D:\zhuzhuang\SearchByImage\src\test\resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.KeywordsTests.test">
