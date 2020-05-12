@@ -1,56 +1,39 @@
 package com.search.guo.action;
 
-import com.search.guo.driver.MyWebDriver;
 import com.search.guo.keyworddriver.KeywordsTests;
 import com.search.guo.utils.GetLocatorUtil;
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import java.io.File;
-import java.security.PublicKey;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
  * @author guoqinglin
  * @create 2020-04-23-10:28
  */
-    public class KeyWordsAction {
+    public class KeyWordsAction{
     public  WebDriver driver;
+    //KeywordsTests KeywordsTests;
     public KeyWordsAction(WebDriver driver) throws InterruptedException {
-        this.driver=new ChromeDriver();
+        this.driver=driver;
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
 
-    public void open(String locator, String browser_name) throws InterruptedException {
-        //global driver
-        if(browser_name.equalsIgnoreCase("chrome")){
-            File file = new File("D://zhuzhuang/SearchByImage/chromedriver.exe");
-            System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
-            WebDriver driver = new ChromeDriver();
-        }
-        else if(browser_name.equalsIgnoreCase("ie")){
-            //TODO: 兼容ie
-        }
-        else if(browser_name.equalsIgnoreCase("firefox")){
-            //TODO:兼容火狐
-        }
-        else{
-            System.out.println("浏览器不存在");
-        }
-    }
+//    public void open(String locator, String browser_name) throws InterruptedException {
+//        if(browser_name.equalsIgnoreCase("chrome")){
+//            File file = new File("D://zhuzhuang/SearchByImage/chromedriver.exe");
+//            System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
+//        }
+//    }
 
     public  void visit(String locator,String url){
         try {
-            //driver.get(url);
+            driver.get(url);
         } catch (Exception e) {
-        //    KeywordsTest.testResult = false;
+            KeywordsTests.testResult = false;
             e.printStackTrace();
         }
     }
@@ -61,18 +44,16 @@ import java.util.concurrent.TimeUnit;
         try {
            driver.findElement(GetLocatorUtil.getByLocatorKeyWord(locator)).click();
         } catch (Exception e) {
-         //   KeywordsTest.testResult = false;
+            KeywordsTests.testResult = false;
             e.printStackTrace();
         }
     }
     public  void input(String locator,String inputValue) {
-        //   WebDriver driver = new ChromeDriver();
-
         try {
             driver.findElement(GetLocatorUtil.getByLocatorKeyWord(locator))
                     .sendKeys(inputValue);
         } catch (Exception e) {
-            //          KeywordsTests.testResult = false;
+            KeywordsTests.testResult = false;
             e.printStackTrace();
         }
     }
@@ -86,11 +67,12 @@ import java.util.concurrent.TimeUnit;
             System.out.println("断言失败");
         }
     }
-    public  void sleep(){
+    public  void sleep(String string,String ms){
         try {
-            driver.wait(5000);
+            //driver.wait(Integer.valueOf(time));
+            Thread.sleep(Integer.valueOf(ms));
         } catch (Exception e) {
-            //KeywordsTest.testResult = false;
+            KeywordsTests.testResult = false;
             e.printStackTrace();
         }
     }

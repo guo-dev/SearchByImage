@@ -1,7 +1,6 @@
 package com.search.guo.keyworddriver;
 
 import com.search.guo.action.KeyWordsAction;
-import com.search.guo.driver.MyWebDriver;
 import com.search.guo.testcases.TestBase;
 
 import com.search.guo.utils.ExcelUtil;

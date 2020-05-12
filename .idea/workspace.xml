@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d06fc72-d58b-4366-a94d-dd7f5d11ab88" name="Default Changelist" comment="" />
+    <list default="true" id="3d06fc72-d58b-4366-a94d-dd7f5d11ab88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configs/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/CrazyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/SearchByImage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/configs/SearchByImage.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/action/KeyWordsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/action/KeyWordsAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/driver/InitDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/driver/MyWebDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/KeywordsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/keyworddriver/KeywordsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/testcases/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/guo/utils/ProUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/guo/utils/ProUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,21 +54,49 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.ChromeTest.test_case01">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhuzhuang\SearchByImage\configs" />
+      <recent name="D:\zhuzhuang\SearchByImage\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.search.guo.keyworddriver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zhuzhuang\SearchByImage\src\main\resources" />
+      <recent name="D:\zhuzhuang\SearchByImage\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.KeywordsTests.test">
     <configuration name="ProjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.search.guo.ProjectTest" />
       <module name="SearchByImage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.search.guo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.search.guo.testcases.TestBase" />
+      <module name="SearchByImage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.search.guo.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,31 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuiteByExcel.testTestSuite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SearchByImage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.search.guo.keyworddriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.search.guo.keyworddriver" />
-      <option name="MAIN_CLASS_NAME" value="com.search.guo.keyworddriver.TestSuiteByExcel" />
-      <option name="METHOD_NAME" value="testTestSuite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ChromeTest.test_case01" />
         <item itemvalue="TestNG.KeywordsTests.test" />
+        <item itemvalue="Application.TestBase" />
+        <item itemvalue="TestNG.ChromeTest.test_case01" />
         <item itemvalue="TestNG.KeywordsTests" />
         <item itemvalue="Application.ProjectTest" />
-        <item itemvalue="TestNG.TestSuiteByExcel.testTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +172,10 @@
       <option name="presentableId" value="Default" />
       <updated>1587563719888</updated>
       <workItem from="1587563725796" duration="69490000" />
+      <workItem from="1587807618021" duration="1129000" />
+      <workItem from="1588835692443" duration="2007000" />
+      <workItem from="1588941367461" duration="271000" />
+      <workItem from="1589172955735" duration="16336000" />
     </task>
     <servers />
   </component>
@@ -154,42 +183,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="238" y="75" key="#Project_Structure" timestamp="1589188708572">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="238" y="75" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1589188708572" />
     <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587613478488">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760@0.0.1280.760" timestamp="1587613478488" />
-    <state width="1236" height="117" key="GridCell.Tab.0.bottom" timestamp="1587713131137">
+    <state x="370" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589200090394">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.0.center" timestamp="1587713131137">
+    <state x="370" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1589200090394" />
+    <state width="424" height="438" key="DebuggerActiveHint" timestamp="1589190856744">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.0.left" timestamp="1587713131137">
+    <state width="424" height="438" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1589190856744" />
+    <state x="429" y="195" key="FileChooserDialogImpl" timestamp="1589181448691">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.0.right" timestamp="1587713131137">
+    <state x="429" y="195" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1589181448691" />
+    <state width="1236" height="229" key="GridCell.Tab.0.bottom" timestamp="1589246630969">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.1.bottom" timestamp="1587713131138">
+    <state width="1236" height="229" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589246630969" />
+    <state width="1236" height="229" key="GridCell.Tab.0.center" timestamp="1589246630968">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1587713131138" />
-    <state width="1236" height="117" key="GridCell.Tab.1.center" timestamp="1587713131137">
+    <state width="1236" height="229" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589246630968" />
+    <state width="1236" height="229" key="GridCell.Tab.0.left" timestamp="1589246630968">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.1.left" timestamp="1587713131137">
+    <state width="1236" height="229" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589246630968" />
+    <state width="1236" height="229" key="GridCell.Tab.0.right" timestamp="1589246630968">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
-    <state width="1236" height="117" key="GridCell.Tab.1.right" timestamp="1587713131137">
+    <state width="1236" height="229" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589246630968" />
+    <state width="1236" height="124" key="GridCell.Tab.1.bottom" timestamp="1589199615064">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="117" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1587713131137" />
+    <state width="1236" height="124" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589199615064" />
+    <state width="1236" height="124" key="GridCell.Tab.1.center" timestamp="1589199615064">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1236" height="124" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589199615064" />
+    <state width="1236" height="124" key="GridCell.Tab.1.left" timestamp="1589199615064">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1236" height="124" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589199615064" />
+    <state width="1236" height="124" key="GridCell.Tab.1.right" timestamp="1589199615064">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1236" height="124" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589199615064" />
     <state x="0" y="25" key="Maven.ArtifactSearchDialog" timestamp="1587699248018">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -206,14 +251,18 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="92" y="92" width="1096" height="576" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.760@0.0.1280.760" timestamp="1587710466551" />
-    <state x="337" y="222" width="647" height="538" key="find.popup" timestamp="1587712703962">
+    <state x="0" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1588941390934">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="337" y="222" width="647" height="538" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1587712703962" />
-    <state x="21" y="35" key="new project wizard" timestamp="1587565379868">
+    <state x="0" y="405" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1588941390934" />
+    <state x="337" y="222" width="647" height="538" key="find.popup" timestamp="1589200136859">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="21" y="35" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1587565379868" />
+    <state x="337" y="222" width="647" height="538" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1589200136859" />
+    <state x="21" y="31" key="new project wizard" timestamp="1588941615957">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="21" y="31" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1588941615957" />
     <state x="341" y="6" key="refactoring.ChangeSignatureDialog" timestamp="1587619006878">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
